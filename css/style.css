@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #000 ;
+}
+nav  a{
+    color: #fff !important;
+}
+nav span{
+    color: #979595;
+    font-size: small;
+}
+.home{
+    border: 2px solid #009ad8;
+    border-radius: 40px;
+    color: #009ad8 !important;
+    
+}
+a{
+    transition: all 2s;
+}
+a:hover{
+    border: 2px solid #009ad8;
+    border-radius: 40px;
+    color: #009ad8 !important;
+}
+.bg{
+    background-image: url(../images/images2.png);
+    height: 63vh;
+    width: 100%;
+    mask-repeat: no-repeat;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+}
+.bgc{
+    background-color: #1e202b;
+    height: 40vh;
+}
+footer{
+    background-color: #31333d;
+    height: 40vh;
+}
+ input{
+    width: 80%;
+    background-color: #1e202b;
+    border-radius: 50px;
+    padding: 15px ;
+    border: none;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-bottom: 4%;
+}
+footer input{
+    width: 90%;
+    margin-left: 5%;
+}
+.week{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1,.div2,.div3{
+    background-color: #2e303b;
+    width: 30%;
+    height: 60vh;
+}
+.div1, .div3{
+    background-color: #484855;
+}
+footer p{
+    color: #acaaaa;
+    margin-left: 6%;
+    font-size: 13px;
+}
+.icon{
+    color: #009ad8;
+    margin-top: 50px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #1b1b1d;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.day{
+    background-color: #424244;
+    color: #d8d5d5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.next-day{
+    background-color: #171718;
+    color: #d8d5d5;
+    padding: 5px;
+}
+.next-next{
+    background-color: #424244;
+    color: #d8d5d5;
+    padding: 5px;
+}
+.div1 span{
+    padding:  20px;
+    color: #d8d5d5;
+    font-size: 20px;
+}
+.degree{
+    color: #fff;
+    font-size: 80px;
+    padding:10px 20px;
+    font-weight: bold;
+}
+.blue{
+    color: #009ad8;
+}
+.footer span{
+    font-size: 15px;
+}
